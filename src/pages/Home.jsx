@@ -5,16 +5,16 @@ import About from '../components/About'
 import Footer from '../components/Footer'
 import Destination from '../components/Destination'
 import TourDestination from '../components/TourDestination'
+import Testomonial from '../components/Testomonial'
 
 const Home = () => {
   return (
     <div>
-        <Navbar />
         <HomeImage />
         <About />
         <Destination />
         <TourDestination />
-        <Footer />
+        <Testomonial />
     </div>
   )
 }
